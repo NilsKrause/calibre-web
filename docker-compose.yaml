@@ -7,3 +7,5 @@ services:
       context: .
     ports:
       - 27371:8080
+    volumes:
+      - ./data:/data
