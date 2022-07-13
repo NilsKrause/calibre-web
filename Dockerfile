@@ -9,6 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 ENV CALIBRE_PORT=8080
 
-COPY . .
-
 CMD [ "python", "./cps.py" ]
