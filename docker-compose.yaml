@@ -1,0 +1,9 @@
+version: '3'
+services:
+  calibreweb:
+    image: nilskrau/calibre-web:latest
+    restart: always
+    build:
+      context: .
+    ports:
+      - 27371:8080
